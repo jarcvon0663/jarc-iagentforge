@@ -1,0 +1,26 @@
+{
+  "name": "jarc-iagentforge",
+  "version": "1.0.0",
+  "description": "CLI para crear y desplegar agentes de IA con Next.js",
+  "main": "index.js",
+  "bin": {
+    "jarc-iagentforge": "./index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "cli",
+    "nextjs",
+    "ai",
+    "agents",
+    "automation"
+  ],
+  "author": "Arturo Rios",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.10",
+    "node-fetch": "^3.3.2",
+    "ora": "^7.0.1",
+    "shelljs": "^0.8.5"
+  }
+}
